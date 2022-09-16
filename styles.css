@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&display=swap');
+
+
+/*****************************************************
+|=================GENERIC STYLING====================|
+| ⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇ |
+******************************************************/
+*,
+*::before,
+*::after{
+box-sizing: border-box;
+}
+
+*{
+margin: 0;
+padding: 0;
+}
+
+html,body{
+height: 100%;
+font-family: "Josefin Sans", sans-serif;
+}
+
+a{
+text-decoration: none;
+}
+
+ul{
+list-style-type: none;
+}
+
+img{
+max-width: 100%;
+}
+
+
+
+/*****************************************************
+|====================NAV SECTION=====================|
+| ⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇ |
+******************************************************/
+nav{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+height:70px;
+padding: 0 122px;
+background-color: #4535AA;
+}
+
+#logo{
+color: #fff;
+}
+
+nav h1{
+margin-right: auto;
+}
+
+.nav-links-container {
+display: flex;
+}
+
+.nav-links-container li{
+margin-right: 47px;
+}
+
+nav a{
+color: #fff;
+}
+
+nav a:hover{
+border-bottom: 3px solid #FFFADE;
+
+}
+
+
+
+/*****************************************************
+|====================ABOUT SECTION===================|
+| ⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇ |
+******************************************************/
+.about-section{
+margin:80px 122px 0;
+display: flex;
+align-items: center;
+gap: 100px;
+flex-wrap: wrap;
+}
+
+
+.my-picture{
+border-radius: 50%;
+border: 3px solid #4535AA;
+}
+
+.name{
+font-size:32px;
+font-weight: 600;
+margin-bottom: 20px;
+}
+
+.about-me-text :nth-child(3){
+margin-top: 20px;
+font-size: 24px;
+font-weight: 300;
+}
+
+
+/*****************************************************
+|====================SERVICES SECTION================|
+| ⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇ |
+******************************************************/
+.services{
+margin:80px 122px 0 ;
+}
+
+
+
+.boxes-container{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+gap:40px;
+padding: 20px;
+}
+
+.box{
+flex: 1 1 300px;
+background-color: #324B50;
+padding: 50px;
+border-radius: 8px;
+height: 300px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+
+.box > *{
+color: white;
+}
+
+.box h2{
+margin-bottom: 22px;
+}
+
+
+.lead{
+font-size: 32px;
+font-weight: 700;
+color:#324B50;
+margin-bottom: 20px;
+}
+
+/*****************************************************
+|====================CONTACT SECTION================|
+| ⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇ |
+******************************************************/
+.contact{
+background-color: #00C19F;
+margin:80px 0
+
+}
+.contact-text{
+width: 400px;
+text-align: center;
+margin: 0 auto;
+padding: 64px 0;
+}
+
+.contact-text h2{
+margin-bottom: 24px;
+font-weight: 700;
+font-size: 32px;
+}
+
+.contact-text p{
+color: white;
+font-size: 32px;
+font-weight: 500;
+margin-bottom: 24px;
+}
+
+
+.button {
+display: inline-block;
+background-color:#e310cb;
+color: white;
+padding: 12px;
+border-radius: 5px;
+text-decoration: none;
+font-size: 20px;
+}
+
+
+/*****************************************************
+|====================FOOTER SECTION================|
+| ⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇ |
+******************************************************/
+footer{
+text-align: center;
+}
+
+footer a{
+color: #e310cb;
+}
+
+footer ul {
+padding: 0;
+margin: 32PX 0;
+display: flex;
+flex-flow: row wrap;
+justify-content: center;
+gap: 48PX;
+font-size: 48px;
+}
+
+footer p{
+font-weight: 400;
+font-size: 18px;
+}
